@@ -3,6 +3,7 @@ const app = express()
 const port = 8080
 
 // Statics
+
 app.use(express.static('public'));
 app.use('/css', express.static(__dirname + 'public/css'))
 app.use('/img', express.static(__dirname + 'public/img'))
