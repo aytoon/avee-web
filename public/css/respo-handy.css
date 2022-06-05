@@ -1,0 +1,7 @@
+@media only screen and (min-width: 320px) {
+    /* Ihr Code für schmalere Smartphones, wie z.B. das Iphone */
+    }
+    
+    @media only screen and (min-width: 480px) {
+    /* Ihr Code für breitere Smartphones */
+    }

@@ -1,11 +1,12 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 8080
 
 // Statics
 app.use(express.static('public'));
 app.use('/css', express.static(__dirname + 'public/css'))
 app.use('/img', express.static(__dirname + 'public/img'))
+app.use('/js', express.static(__dirname + 'public/js'))
 
 app.set('views', './views');
 app.set('view engine', 'ejs');
